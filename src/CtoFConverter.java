@@ -8,7 +8,6 @@ public class CtoFConverter {
         String trash = "";
 
         Scanner in = new Scanner(System.in);
-
         do {
             System.out.print("Enter a temperature in celsius: ");
             if (in.hasNextDouble())

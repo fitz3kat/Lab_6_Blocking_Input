@@ -8,6 +8,9 @@ public class RectangleInfo {
         double perimeter = 0;
         boolean done = false;
         double area = 0;
+        double diagonal = 0;
+        double heightSquared = 0;
+        double widthSquared = 0;
         String trash = "";
 
         Scanner in = new Scanner(System.in);
@@ -26,10 +29,19 @@ public class RectangleInfo {
                     in.nextLine();
 
                     perimeter = (width *2) + (height * 2);
+
                     area = width * height;
+
+                    heightSquared = height * height;
+                    widthSquared = width * width;
+                    diagonal = widthSquared + heightSquared;
+                    diagonal =  java.lang.Math.sqrt(diagonal);
 
                     System.out.println("The perimeter of your rectangle is " + perimeter);
                     System.out.println("The area of your rectangle is " + area);
+                    System.out.println("The diagonal of your rectangle is " + diagonal);
+
+
 
                     done = true;
                 }
