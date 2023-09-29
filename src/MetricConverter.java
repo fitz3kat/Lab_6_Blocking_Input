@@ -9,6 +9,7 @@ public class MetricConverter {
         String trash = "";
 
         Scanner in = new Scanner(System.in);
+
         do {
             System.out.print("Enter a numeric distance in meters: ");
             if (in.hasNextDouble())

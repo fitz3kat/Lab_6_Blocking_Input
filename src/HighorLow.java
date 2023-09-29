@@ -14,7 +14,6 @@ public class HighorLow {
         answer = rand.nextInt(MAX) + 1;
 
         do {
-
             System.out.println("Guess a number between 1 and 10: ");
             if (in.hasNextInt()) {
                 guess = in.nextInt();

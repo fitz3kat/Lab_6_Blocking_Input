@@ -11,6 +11,7 @@ public class RectangleInfo {
         String trash = "";
 
         Scanner in = new Scanner(System.in);
+
         do {
             System.out.print("Enter the width of your rectangle: ");
             if (in.hasNextDouble())

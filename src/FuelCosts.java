@@ -11,6 +11,7 @@ public class FuelCosts {
         String trash = "";
 
         Scanner in = new Scanner(System.in);
+
         do {
             System.out.print("Enter the number of gallons in your tank: ");
             if (in.hasNextDouble())
